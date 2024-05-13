@@ -1,13 +1,13 @@
 import { useState } from "react"
 
-export function NewTaskForm(props) {
+export function NewTaskForm({ onSubmit }) {
     const [newItem, setNewItem] = useState("")
 
     function handleSubmit(e) {
         e.preventDefault()
         if (newItem === "") return
         
-        props.onSubmit(newItem)
+        onSubmit(newItem)
 
         setNewItem("")
       }
