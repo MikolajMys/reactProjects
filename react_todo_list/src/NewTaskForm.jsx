@@ -13,7 +13,7 @@ export function NewTaskForm({ onSubmit }) {
       }
 
     return (
-        <form onSubmit={handleSubmit} className="new-item-form">
+      <form onSubmit={handleSubmit} className="new-item-form">
         <div className="form-row">
           <label htmlFor="item">New Task</label>
           <input 
