@@ -14,16 +14,19 @@ export function NewTaskForm({ onSubmit }) {
 
     return (
       <form onSubmit={handleSubmit} className="new-item-form">
-        <div className="form-row">
-          <label htmlFor="item">New Task</label>
+        <div>
+          {/* <label htmlFor="item">New Task</label> */}
           <input 
+            className="todo-input"
+            placeholder="What are your plans for today?"
             value={newItem} 
             onChange={e => setNewItem(e.target.value)} 
             type="text" 
             id="item" 
           />
+          <button className="btn">Add Task</button>
         </div>
-        <button className="btn">Add</button>
+        
       </form>
     )
 }

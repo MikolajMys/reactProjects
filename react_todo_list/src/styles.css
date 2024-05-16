@@ -161,3 +161,30 @@ body {
   padding: 2rem;
   border-radius: 5px;
 }
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.50rem;
+  cursor: pointer;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 234px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: hsl(200, 82%, 59%);
+}
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
