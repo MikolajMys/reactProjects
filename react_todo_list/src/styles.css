@@ -140,6 +140,8 @@ body {
 .list li label:hover::before {
   content: "✔";
   background: hsl(200, 100%, 80%);
+  font-size: 0.75rem;
+  font-weight: bold;
   color: hsl(200, 100%, 40%);
 }
 
