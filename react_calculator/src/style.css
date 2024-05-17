@@ -28,6 +28,7 @@ body{
     border: 0px solid #505050;
     color: white;
     font-size: 2rem;
+    font-weight: bold;
     padding: 0.25em 0.5em;
     border-radius: 10em;
     cursor: pointer;
@@ -52,6 +53,7 @@ body{
     align-items: flex-end;
     justify-content: space-around;
     padding: .75rem;
+    font-weight: bold;
     word-wrap: break-word;
     word-break: break-all;
     border-radius: 1rem;
@@ -72,6 +74,7 @@ body{
     border: 0px solid #505050;
     color: white;
     font-size: 2rem;
+    font-weight: bold;
     padding: 0.25em 0.5em;
     border-radius: 10em;
     cursor: pointer;
@@ -92,6 +95,7 @@ body{
     border: 0px solid #FF9500;
     color: white;
     font-size: 2rem;
+    font-weight: bold;
     padding: 0.25em 0.5em;
     border-radius: 10em;
     cursor: pointer;
@@ -111,8 +115,9 @@ body{
 .btn-top {
     background: #D4D4D2;
     border: 0px solid #D4D4D2;
-    color: #1c1c1ca9;
+    color: #1c1c1c;
     font-size: 1.5rem;
+    font-weight: bold;
     padding: 0.25em 0.5em;
     border-radius: 10em;
     cursor: pointer;
